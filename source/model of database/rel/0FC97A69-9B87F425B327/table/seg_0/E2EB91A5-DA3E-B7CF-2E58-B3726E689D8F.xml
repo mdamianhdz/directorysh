@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E2EB91A5-DA3E-B7CF-2E58-B3726E689D8F" name="localphones">
+<createdBy>Angel</createdBy>
+<createdTime>2016-08-26 04:45:01 UTC</createdTime>
+<ownerDesignName>model of database</ownerDesignName>
+<ordsAlias>table_9</ordsAlias>
+<abbreviation>LCPHN</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="2D1B160D-634B-AFC4-FB93-0F13D33A3C75">
+<createdBy>Angel</createdBy>
+<createdTime>2016-08-26 04:46:13 UTC</createdTime>
+<ownerDesignName>model of database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="number" id="19626D7D-4596-6D09-4613-D00719160495">
+<createdBy>Angel</createdBy>
+<createdTime>2016-08-26 04:46:13 UTC</createdTime>
+<ownerDesignName>model of database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descriptionid" id="0F3D9024-3DB2-337F-BF63-94C433D4D72C">
+<createdBy>Angel</createdBy>
+<createdTime>2016-08-26 04:46:13 UTC</createdTime>
+<ownerDesignName>model of database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2A153805-3786-C754-030A-73D31D1BBBE1" referredColumn="598624DC-356D-8186-A5A3-B580FE279EED"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9917EDF8-4AFA-920B-5C54-6DD0D20E773D" name="localphones_PK">
+<createdBy>Angel</createdBy>
+<createdTime>2016-08-26 04:46:13 UTC</createdTime>
+<ownerDesignName>model of database</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2D1B160D-634B-AFC4-FB93-0F13D33A3C75"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BAD1B00F-5BA4-3FAF-A133-DEF43E509526" name="localphones_descriptions_FK">
+<createdBy>Angel</createdBy>
+<createdTime>2016-08-26 04:46:30 UTC</createdTime>
+<ownerDesignName>model of database</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0F3D9024-3DB2-337F-BF63-94C433D4D72C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

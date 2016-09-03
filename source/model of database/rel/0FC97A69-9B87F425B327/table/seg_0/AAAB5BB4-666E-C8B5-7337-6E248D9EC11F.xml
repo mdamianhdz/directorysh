@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AAAB5BB4-666E-C8B5-7337-6E248D9EC11F" name="contacts-deparments">
+<createdBy>Angel</createdBy>
+<createdTime>2016-08-26 04:15:19 UTC</createdTime>
+<ownerDesignName>model of database</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<abbreviation>CTDP</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="FE11C609-6A45-DB05-1C0D-E7F70685E57E">
+<createdBy>Angel</createdBy>
+<createdTime>2016-08-26 04:16:14 UTC</createdTime>
+<ownerDesignName>model of database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="contactid" id="AAED9E88-2B8E-DD62-67BA-7AD92C098899">
+<createdBy>Angel</createdBy>
+<createdTime>2016-08-26 04:16:48 UTC</createdTime>
+<ownerDesignName>model of database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8F5E5D0D-AF50-7B5C-12EB-6DDE727593BC" referredColumn="16B9234A-C249-E3BF-D3BA-593179C50688"/>
+</associations>
+</Column>
+<Column name="departmentid" id="9694444B-406A-8061-6D7A-E4E7FCAF7FDB">
+<createdBy>Angel</createdBy>
+<createdTime>2016-08-26 04:16:48 UTC</createdTime>
+<ownerDesignName>model of database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4C052E85-75BA-80AB-2B9F-597DD0273A6A" referredColumn="EF34B6F4-128C-5C1B-65CA-E1C8D04FE51F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C7A4A2AC-0F22-097A-69A1-64D73A307114" name="contacts-deparments_PK">
+<createdBy>Angel</createdBy>
+<createdTime>2016-08-26 04:16:14 UTC</createdTime>
+<ownerDesignName>model of database</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FE11C609-6A45-DB05-1C0D-E7F70685E57E"/>
+<colUsage columnID="AAED9E88-2B8E-DD62-67BA-7AD92C098899"/>
+<colUsage columnID="9694444B-406A-8061-6D7A-E4E7FCAF7FDB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C3649FC4-2C88-70CD-C22C-B1F0A295B035" name="contacts-deparments_contacts_FK">
+<createdBy>Angel</createdBy>
+<createdTime>2016-08-26 04:17:42 UTC</createdTime>
+<ownerDesignName>model of database</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AAED9E88-2B8E-DD62-67BA-7AD92C098899"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5DF607E1-E0F2-F095-FA41-27404D0DB611" name="contacts-deparments_departments_FK">
+<createdBy>Angel</createdBy>
+<createdTime>2016-08-26 04:17:42 UTC</createdTime>
+<ownerDesignName>model of database</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9694444B-406A-8061-6D7A-E4E7FCAF7FDB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

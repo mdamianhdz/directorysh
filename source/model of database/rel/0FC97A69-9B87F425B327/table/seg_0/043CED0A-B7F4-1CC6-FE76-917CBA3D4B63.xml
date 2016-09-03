@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="043CED0A-B7F4-1CC6-FE76-917CBA3D4B63" name="company">
+<createdBy>Angel</createdBy>
+<createdTime>2016-08-26 04:49:59 UTC</createdTime>
+<ownerDesignName>model of database</ownerDesignName>
+<ordsAlias>table_11</ordsAlias>
+<abbreviation>CPY</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="8BF5DBFB-823C-184C-989C-030E39D5FD1E">
+<createdBy>Angel</createdBy>
+<createdTime>2016-08-26 04:52:14 UTC</createdTime>
+<ownerDesignName>model of database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="turningid" id="E8CFF7CC-B36D-2AC3-6A9C-BD77A115F267">
+<createdBy>Angel</createdBy>
+<createdTime>2016-08-26 04:52:14 UTC</createdTime>
+<ownerDesignName>model of database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8DAF6A1D-A7E1-5929-FA13-AAF79B23CAD5" referredColumn="32123190-213F-2542-C0CC-F545914035DA"/>
+</associations>
+</Column>
+<Column name="name" id="FBFB7C6B-146F-2209-68C9-77232C732B8E">
+<createdBy>Angel</createdBy>
+<createdTime>2016-08-26 04:52:14 UTC</createdTime>
+<ownerDesignName>model of database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="businessname" id="54A05112-A8AF-FD0D-66F8-E6DBC1BD28A2">
+<createdBy>Angel</createdBy>
+<createdTime>2016-08-26 04:52:14 UTC</createdTime>
+<commentInRDBMS>Razon Social de la empresa</commentInRDBMS>
+<ownerDesignName>model of database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="contact" id="C43E1F47-4B50-985E-B34A-8E2CE9BF915B">
+<createdBy>Angel</createdBy>
+<createdTime>2016-08-26 04:52:14 UTC</createdTime>
+<comment>Nombre de contacto principal de la empresa</comment>
+<ownerDesignName>model of database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A11EB19D-87F4-70B2-3A66-64D9A5FD2370" name="company_PK">
+<createdBy>Angel</createdBy>
+<createdTime>2016-08-26 04:52:14 UTC</createdTime>
+<ownerDesignName>model of database</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8BF5DBFB-823C-184C-989C-030E39D5FD1E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C3D68E68-B0DC-440E-3E9A-F7E32C1AE619" name="company_turning_FK">
+<createdBy>Angel</createdBy>
+<createdTime>2016-08-26 04:53:59 UTC</createdTime>
+<ownerDesignName>model of database</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E8CFF7CC-B36D-2AC3-6A9C-BD77A115F267"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

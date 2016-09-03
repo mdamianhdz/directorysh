@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FE8AFD28-E118-BA6E-EEF2-BFF79B8F0BDC" name="descriptions">
+<createdBy>Angel</createdBy>
+<createdTime>2016-08-26 04:06:21 UTC</createdTime>
+<ownerDesignName>model of database</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<abbreviation>DPTS</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="598624DC-356D-8186-A5A3-B580FE279EED">
+<createdBy>Angel</createdBy>
+<createdTime>2016-08-26 04:08:34 UTC</createdTime>
+<ownerDesignName>model of database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="48949017-34AD-5F88-07CA-EFE190263DED">
+<createdBy>Angel</createdBy>
+<createdTime>2016-08-26 04:08:34 UTC</createdTime>
+<commentInRDBMS>Contendra las etiquetas para los telefonos. Ejemplo: Si es celular, telefono local, nextel, lada sin costo, etc.</commentInRDBMS>
+<ownerDesignName>model of database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="36277A37-CD69-5470-0EE2-A37886FE0BE7" name="descriptions_PK">
+<createdBy>Angel</createdBy>
+<createdTime>2016-08-26 04:08:34 UTC</createdTime>
+<ownerDesignName>model of database</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="598624DC-356D-8186-A5A3-B580FE279EED"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

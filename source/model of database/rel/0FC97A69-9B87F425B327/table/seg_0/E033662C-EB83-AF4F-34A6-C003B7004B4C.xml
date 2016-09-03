@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E033662C-EB83-AF4F-34A6-C003B7004B4C" name="configuration">
+<createdBy>Angel</createdBy>
+<createdTime>2016-08-26 05:03:16 UTC</createdTime>
+<ownerDesignName>model of database</ownerDesignName>
+<ordsAlias>table_16</ordsAlias>
+<abbreviation>CFGN</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="894ED62A-1E31-982B-27A2-7E0F82B59726">
+<createdBy>Angel</createdBy>
+<createdTime>2016-08-26 05:04:33 UTC</createdTime>
+<ownerDesignName>model of database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="version" id="ADD7BF08-8827-4E55-B576-076A444804A1">
+<createdBy>Angel</createdBy>
+<createdTime>2016-08-26 05:04:33 UTC</createdTime>
+<ownerDesignName>model of database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="date" id="05D59265-E02C-4EF1-1F3E-C8E183288722">
+<createdBy>Angel</createdBy>
+<createdTime>2016-08-26 05:04:33 UTC</createdTime>
+<ownerDesignName>model of database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="logo" id="7F575DC7-4D99-4809-F588-BFF88E91E512">
+<createdBy>Angel</createdBy>
+<createdTime>2016-08-26 05:04:33 UTC</createdTime>
+<ownerDesignName>model of database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="active" id="EB23F77F-7FEC-26B9-D445-FB1A3E054F93">
+<createdBy>Angel</createdBy>
+<createdTime>2016-08-26 05:04:33 UTC</createdTime>
+<ownerDesignName>model of database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D73C10F0-8EC4-2F05-0662-8A0921DDEED6" name="configuration_PK">
+<createdBy>Angel</createdBy>
+<createdTime>2016-08-26 05:04:33 UTC</createdTime>
+<ownerDesignName>model of database</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="894ED62A-1E31-982B-27A2-7E0F82B59726"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

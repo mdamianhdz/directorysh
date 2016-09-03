@@ -1,0 +1,154 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5AA03803-EFB0-7FA3-3681-3E28DE57A59D" name="calls">
+<createdBy>Angel</createdBy>
+<createdTime>2016-08-26 04:37:14 UTC</createdTime>
+<ownerDesignName>model of database</ownerDesignName>
+<ordsAlias>table_8</ordsAlias>
+<abbreviation>CALS</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="E54C7862-0805-3823-7FDE-4F4DC7C434ED">
+<createdBy>Angel</createdBy>
+<createdTime>2016-08-26 04:39:57 UTC</createdTime>
+<ownerDesignName>model of database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="phoneid" id="14E62926-3436-8FB0-5B83-905275D9F520">
+<createdBy>Angel</createdBy>
+<createdTime>2016-08-26 04:39:57 UTC</createdTime>
+<ownerDesignName>model of database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EEAB61E5-6C0D-5199-8B5A-9B5468DFE018" referredColumn="12230B07-2E30-2BBC-D55B-40BFB342CED0"/>
+</associations>
+</Column>
+<Column name="userid" id="C2DAFB68-458B-595D-5C10-1DCFEDB26565">
+<createdBy>Angel</createdBy>
+<createdTime>2016-08-26 04:39:57 UTC</createdTime>
+<ownerDesignName>model of database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1E9828BF-FAE5-D8A2-D2AC-E12E336D1680" referredColumn="B45715FB-30D1-DEB8-39F5-7E7117CA18E9"/>
+</associations>
+</Column>
+<Column name="localphoneid" id="A973622F-BF1F-71C0-1B05-F32C62648EE4">
+<createdBy>Angel</createdBy>
+<createdTime>2016-08-26 04:40:46 UTC</createdTime>
+<ownerDesignName>model of database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EB8CAFFA-04C8-470D-8673-C87813C5A3FC" referredColumn="2D1B160D-634B-AFC4-FB93-0F13D33A3C75"/>
+</associations>
+</Column>
+<Column name="done" id="5A04E11B-CE61-33C4-823C-9F3FCBD9A856">
+<createdBy>Angel</createdBy>
+<createdTime>2016-08-26 04:39:57 UTC</createdTime>
+<ownerDesignName>model of database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="date" id="A8678101-097F-A78A-F8C0-BC9A776D1CF6">
+<createdBy>Angel</createdBy>
+<createdTime>2016-08-26 04:39:57 UTC</createdTime>
+<ownerDesignName>model of database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="comments" id="D5D1201A-0C75-B5BC-0F31-B31064BFC6C5">
+<createdBy>Angel</createdBy>
+<createdTime>2016-08-26 04:39:57 UTC</createdTime>
+<ownerDesignName>model of database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="requested" id="80E2F1A7-A20E-B066-CBB9-F54049140FCF">
+<createdBy>Angel</createdBy>
+<createdTime>2016-08-26 04:39:57 UTC</createdTime>
+<commentInRDBMS>Describe el nombre de la persona que solicito la llamada</commentInRDBMS>
+<ownerDesignName>model of database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="352E242C-A1E3-D691-8178-D21044A59755" name="calls_PK">
+<createdBy>Angel</createdBy>
+<createdTime>2016-08-26 04:39:57 UTC</createdTime>
+<ownerDesignName>model of database</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E54C7862-0805-3823-7FDE-4F4DC7C434ED"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9AA5DA48-544C-7C1D-19ED-20B10D2DA89E" name="calls_phones_FK">
+<createdBy>Angel</createdBy>
+<createdTime>2016-08-26 04:44:41 UTC</createdTime>
+<ownerDesignName>model of database</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="14E62926-3436-8FB0-5B83-905275D9F520"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="327F35FE-9D40-A8C2-A9A0-EFB609515401" name="calls_users_FK">
+<createdBy>Angel</createdBy>
+<createdTime>2016-08-26 04:44:41 UTC</createdTime>
+<ownerDesignName>model of database</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C2DAFB68-458B-595D-5C10-1DCFEDB26565"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9E2CB6E1-9400-3F60-BE45-40B95A530E51" name="calls_localphones_FK">
+<createdBy>Angel</createdBy>
+<createdTime>2016-08-26 04:47:12 UTC</createdTime>
+<ownerDesignName>model of database</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A973622F-BF1F-71C0-1B05-F32C62648EE4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

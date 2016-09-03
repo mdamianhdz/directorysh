@@ -1,0 +1,132 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B8A80797-C9DF-3907-294C-5F2EEAE1AEE7" name="contacts">
+<createdBy>Angel</createdBy>
+<createdTime>2016-08-26 03:59:59 UTC</createdTime>
+<ownerDesignName>model of database</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<abbreviation>CNT</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="16B9234A-C249-E3BF-D3BA-593179C50688">
+<createdBy>Angel</createdBy>
+<createdTime>2016-08-26 04:05:45 UTC</createdTime>
+<ownerDesignName>model of database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="5352165A-23C0-2C65-87F2-ACA8E2DF59EF">
+<createdBy>Angel</createdBy>
+<createdTime>2016-08-26 04:05:45 UTC</createdTime>
+<ownerDesignName>model of database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="address" id="BF977E74-7AC8-C293-8973-01FFDCBD50BB">
+<createdBy>Angel</createdBy>
+<createdTime>2016-08-26 04:05:45 UTC</createdTime>
+<ownerDesignName>model of database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="92E58F9E-E577-D1FF-0D37-1579AC29EC98">
+<createdBy>Angel</createdBy>
+<createdTime>2016-08-26 04:05:45 UTC</createdTime>
+<ownerDesignName>model of database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="photo" id="96DB4C77-CB30-8311-58F7-225A4BC9EF75">
+<createdBy>Angel</createdBy>
+<createdTime>2016-08-26 04:05:45 UTC</createdTime>
+<ownerDesignName>model of database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="active" id="642C9141-A9CB-479E-4489-D42356AB94E4">
+<createdBy>Angel</createdBy>
+<createdTime>2016-08-26 04:05:45 UTC</createdTime>
+<ownerDesignName>model of database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="typeperson" id="BCDE689F-2753-15FF-4577-9CDCD844ACC0">
+<createdBy>Angel</createdBy>
+<createdTime>2016-08-26 04:05:45 UTC</createdTime>
+<comment>Persona fisica o moral</comment>
+<ownerDesignName>model of database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="companyid" id="2F1D2BA1-B2CB-CA61-C30A-BB62A0590D2B">
+<createdBy>Angel</createdBy>
+<createdTime>2016-09-03 04:23:02 UTC</createdTime>
+<ownerDesignName>model of database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0FF3BE74-49AC-E882-6E83-012C5023ADA9" referredColumn="8BF5DBFB-823C-184C-989C-030E39D5FD1E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1DDAE51B-2DD3-FC25-C9FF-0EF4B46A551E" name="contact_PK">
+<createdBy>Angel</createdBy>
+<createdTime>2016-08-26 04:05:45 UTC</createdTime>
+<ownerDesignName>model of database</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="16B9234A-C249-E3BF-D3BA-593179C50688"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8A7E4EC1-423B-6DD6-C53B-8C4B74170F9C" name="contacts_company_FK">
+<createdBy>Angel</createdBy>
+<createdTime>2016-09-03 04:23:30 UTC</createdTime>
+<ownerDesignName>model of database</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2F1D2BA1-B2CB-CA61-C30A-BB62A0590D2B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

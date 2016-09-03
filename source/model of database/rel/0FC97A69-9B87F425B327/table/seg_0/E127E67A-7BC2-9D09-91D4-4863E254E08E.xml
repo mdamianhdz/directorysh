@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E127E67A-7BC2-9D09-91D4-4863E254E08E" name="branchs">
+<createdBy>Angel</createdBy>
+<createdTime>2016-08-26 05:00:46 UTC</createdTime>
+<ownerDesignName>model of database</ownerDesignName>
+<ordsAlias>table_15</ordsAlias>
+<abbreviation>BCHS</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="29458EB9-DCDC-25B0-A8C5-959E6F2EE7F1">
+<createdBy>Angel</createdBy>
+<createdTime>2016-08-26 05:02:38 UTC</createdTime>
+<ownerDesignName>model of database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="companyid" id="04799AB9-67A3-F35C-59D3-34699F3D8C9A">
+<createdBy>Angel</createdBy>
+<createdTime>2016-08-26 05:02:38 UTC</createdTime>
+<ownerDesignName>model of database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="126403B2-65A7-5CEF-0BE7-EFF81BC70B65" referredColumn="8BF5DBFB-823C-184C-989C-030E39D5FD1E"/>
+</associations>
+</Column>
+<Column name="name" id="9FF8BD95-5993-1BFB-90FC-7FE87F4913D3">
+<createdBy>Angel</createdBy>
+<createdTime>2016-08-26 05:02:38 UTC</createdTime>
+<ownerDesignName>model of database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="schedule" id="4AB433AD-80B6-35A1-3366-E141E4284E61">
+<createdBy>Angel</createdBy>
+<createdTime>2016-08-26 05:02:38 UTC</createdTime>
+<commentInRDBMS>Horario de atencion</commentInRDBMS>
+<ownerDesignName>model of database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="active" id="F36CF18D-BE26-CA85-4612-0206CA38E2AF">
+<createdBy>Angel</createdBy>
+<createdTime>2016-08-26 05:02:38 UTC</createdTime>
+<ownerDesignName>model of database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F7F05950-3D0B-FD9A-FDF1-ABA3EFC79748" name="branchs_PK">
+<createdBy>Angel</createdBy>
+<createdTime>2016-08-26 05:02:38 UTC</createdTime>
+<ownerDesignName>model of database</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="29458EB9-DCDC-25B0-A8C5-959E6F2EE7F1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="48271F76-FF06-8AE9-1313-65EBD6787C6D" name="branchs_company_FK">
+<createdBy>Angel</createdBy>
+<createdTime>2016-08-26 05:02:49 UTC</createdTime>
+<ownerDesignName>model of database</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="04799AB9-67A3-F35C-59D3-34699F3D8C9A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
